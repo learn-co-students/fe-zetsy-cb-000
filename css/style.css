@@ -7,14 +7,64 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+	color:  #6F7F7A
 }
 
 .wrapper {
 	width: 960px;
-	margin: 0 auto;
+	margin: -20px auto;
 	background: #fff;
 	padding: 0 45px 20px;
 }
-
+*	{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 /* Write all remaining styles here */
+#title a{
+	font-size: 2.5em;
+	letter-spacing: 0.05em;
+	font-weight: 900
+}
+
+#title a:link {
+  color: #98ADA6;
+  text-decoration: none;
+}
+
+#title a:hover {
+  color: #6F7F7A;
+  text-decoration: none;
+}
+hr {
+	color: pink;
+	margin-bottom: 3px;
+}
+#about img {
+	border: #98ADA6 solid 4px;
+	width:100%
+}
+
+#press div {
+	width: 24.85%;
+	height: 150px;
+	float: left;
+	border: #98ADA6 solid 4px;
+	margin-left: 0.2%;
+	background-color: #F7F0EE
+}
+footer {
+	float: right;
+	font-size: 0.8em;
+	margin-top:1.5em
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
