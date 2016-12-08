@@ -57,8 +57,9 @@ div#press {
 	width: 224px;
 	margin: 2px;
 	padding: 0;
-	border: 6px solid #ddd;
 	line-height: 0;
+	border: 6px solid #ddd;
+	transition: border 0.5s ease;
 }
 
 #press a.first {
