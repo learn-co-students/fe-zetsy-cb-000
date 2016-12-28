@@ -2,6 +2,11 @@
 
 /* link the web font used for the level 1 heading here */
 
+@font-face {
+	font-family: 'Baskerville';
+	src: url(http://learn-co-curriculum.github.io/fe-zetsy/fonts/Baskerville.ttc);
+}
+
 /*////////// Global Styles //////////*/
 
 body {
@@ -18,3 +23,59 @@ body {
 }
 
 /* Write all remaining styles here */
+
+#featured img.gborder {
+	border: 5px solid rgb(159,170,166);
+}
+
+#press img.gborder {
+	border: 5px solid #ccc;
+}
+
+#press img.gborder:hover {
+	border: 5px solid rgb(111,127,122);
+}
+
+
+h1 {
+	font-family: 'Baskerville', sans-serif;
+	font-size: 5em;
+	font-weight: normal;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+	margin: 0;
+	color: rgb(111,127,122);
+}
+
+#featured {
+	margin: 5px 0;
+}
+
+h2 {
+	font-size: 2em;
+	color: rgb(111,127,122);
+}
+
+#about a:link {
+	text-decoration: none;
+	color: #1783bb;
+}
+
+#about a:hover, a:active {
+	text-decoration: underline;
+	color: #1783bb;
+}
+
+footer {
+	height: 100px;
+	clear: both;
+}
+
+footer {
+	float:right;
+	font-size: .75em;
+}
+
+footer p {
+	margin: 20px 0;
+}
