@@ -80,6 +80,7 @@ header a:hover {
 }
 
 #press img {
+	transition: all 1s ease;
 	border: 5px #ccc solid;
 }
 
