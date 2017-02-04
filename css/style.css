@@ -1,13 +1,14 @@
-/*////////////// Fonts //////////////*/
-
-/* link the web font used for the level 1 heading here */
-
-/*////////// Global Styles //////////*/
-
 body {
-	background: #F3EBE9;
+	background: #F52549;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+}
+
+h1,h2,h4,h4,h5,h6{
+  font-family: 'Josefin Slab', serif;
+}
+
+p{
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 .wrapper {
@@ -17,4 +18,49 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+h1 {
+  color: #43464B;  
+  padding-top: 64px;
+  padding-bottom: 32px;
+  margin: 0 0 5px;
+  font-size: 5em;
+  font-weight: 800;
+  border-bottom: 1px solid #ccc;
+}
+
+h2 {
+  color: #43464B;
+  font-size: 2em;
+}
+
+p{
+  color: #555;
+  font-size: 1em;
+  margin: 0 0 20px 0;
+}
+
+#featured img {
+  border: 3px #43464B solid;
+}
+
+#featured a {
+  color: #1783bb;
+  text-decoration: none;
+}
+
+#featured a:hover {
+  text-decoration: underline;
+}
+
+#press {
+  margin-bottom: 64px;
+}
+
+#press img {
+  border: 3px #CCC solid;
+  padding: 1px;
+}
+
+#press img:hover {
+  border: 3px #43464B solid;
+}
