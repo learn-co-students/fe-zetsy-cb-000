@@ -1,13 +1,17 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@font-face {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc);
+}
 
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -17,4 +21,66 @@ body {
 	padding: 0 45px 20px;
 }
 
+footer {
+	font-size: .8em;
+}
+
 /* Write all remaining styles here */
+
+/***********GLOBAL****************/
+
+
+h1 {
+	padding-bottom: 10px;
+	margin: 0 0 5px;
+	font-size: 5em;
+	font-weight: normal;
+	font-family: 'Baskerville', serif;
+	border-bottom: 1px solid #ccc;
+}
+
+h2 {
+	font-size: 2em;
+	color: rgb(111,127,122);
+}
+
+
+/***********SECTION****************/
+
+header a {
+	color: rgb(152,173,166);
+	text-decoration: none;
+}
+
+header a:hover {
+	color: rgb(111,127,122);
+}
+
+#featured-necklace img {
+	border: 5px rgb(152,173,166) solid;
+}
+
+#press {
+	margin-bottom: 20px;
+}
+
+#press a{
+	text-decoration: none;
+}
+
+#press img {
+	border: 5px #ccc solid;
+	padding: 1px;
+	text-decoration: none;
+}
+
+#press img:hover {
+	border: 5px rgb(111,127,122) solid;
+}
+
+
+footer {
+	text-align: right;
+	clear: both;
+	margin: 20px 3%;
+}
