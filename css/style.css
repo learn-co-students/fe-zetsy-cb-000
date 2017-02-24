@@ -7,14 +7,75 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
 	background: #fff;
-	padding: 0 45px 20px;
+	padding: 0 45px 10px;
 }
 
 /* Write all remaining styles here */
+#logo {
+	border: 5px solid lightgrey;
+	padding: 1px;
+}
+
+#logo:hover {
+	border: 5px solid #7F8778;
+	padding: 1px;
+}
+
+.necklace {
+	border: 5px solid #7F8778;
+	position: relative;
+  bottom: 45px;
+
+}
+
+p {
+	color: #2F4F4F;
+}
+
+h1, h2 {
+	font-style: Georgia, serif;
+	color: #7F8778;
+	font-size: 32px;
+}
+
+h1{
+	font-size: 80px;
+	font-weight: lighter;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #7F8778;
+}
+
+h1:hover {
+  color: #5A6351;
+}
+
+h2 {
+	font-size: 32px;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+#copyright {
+	font-size: 12px;
+	float: right;
+	font-weight: normal;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
