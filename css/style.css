@@ -28,6 +28,11 @@ body {
  header h1 {
 	 font-family: 'Baskerville', 'Times New Roman', serif;
 	 font-size: 5em;
+	 padding-bottom: 10px;
+	 border-bottom: 1px solid #ccc;
+	 margin-top: 0px;
+	 margin-bottom: 5px;
+
  }
 
  h1, h2 {
