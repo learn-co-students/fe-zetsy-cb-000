@@ -32,9 +32,17 @@ body {
 	 border-bottom: 1px solid #ccc;
 	 margin-top: 0px;
 	 margin-bottom: 5px;
-	 color: rgb(152, 173, 166);
  }
 
+header a {
+	color: rgb(152, 173, 166);
+	text-decoration: none;
+	transition: color 0.2s ease;
+}
+
+header a:hover {
+	color: rgb(111,127,122);
+}
 
 /* ====== Main Section Styles ======= */
 
@@ -52,6 +60,10 @@ main h2 {
 main a {
 	color: #1783bb;
 	text-decoration: none;
+}
+
+main a:hover {
+	text-decoration: underline;
 }
 
 main {
