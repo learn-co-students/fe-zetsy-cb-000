@@ -18,3 +18,47 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+	font-family: Baskerville;
+	color: rgb(152,173,166);
+	font-size: 5em;
+	margin: 0 0 5px;
+}
+
+img {
+	border: solid 5px rgb(152,173,166);
+}
+
+a:hover img {
+	border: solid 5px rgb(111,127,122);
+}
+
+#press {
+	display: block;
+}
+
+#copyright {
+	font-size: 0.8em;
+}
+
+p {
+	color: #555;
+}
+
+h2 {
+	color: #555;
+	font-size: 2em;
+}
+
+footer {
+	text-align: right;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
