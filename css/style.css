@@ -7,7 +7,8 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+	color: #4A4848;
 }
 
 .wrapper {
@@ -18,3 +19,64 @@ body {
 }
 
 /* Write all remaining styles here */
+header {
+	border-bottom: 1px #98ADA6 solid;
+	margin-bottom: 5px;
+}
+
+header h1 {
+	font-size: 5em;
+	margin: 0;
+	padding: 10px 0;
+}
+
+header h1 a {
+	text-decoration: none;
+	color: #98ADA6;
+	-webkit-transition: color 0.5s ease;
+	-moz-transition: color 0.5s ease;
+	-o-transition: color 0.5s ease;
+	transition: color 0.5s ease;
+}
+
+header h1 a:hover {
+	color: #6F7F7A;
+}
+
+h2 {
+	font-size: 2em;
+	color: #6F7F7A;
+}
+
+#banner-image {
+	border: 5px #98ADA6 solid;
+}
+
+#banner-image img {
+	width: 100%;
+}
+
+#about a {
+	text-decoration: none;
+	color: #1796E1;
+}
+
+#about a:hover {
+	text-decoration: underline;
+}
+
+#press img {
+	border: 5px #ccc solid;
+	-webkit-transition: border-color 0.5s ease;
+	-moz-transition: border-color 0.5s ease;
+	-o-transition: border-color 0.5s ease;
+	transition: border-color 0.5s ease;
+}
+
+#press img:hover {
+	border: 5px #6F7F7A solid;
+}
+
+footer p {
+	text-align: right;
+}
