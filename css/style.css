@@ -1,13 +1,18 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@font-face {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc);
+}
+
 
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +23,66 @@ body {
 }
 
 /* Write all remaining styles here */
+
+/*////////// Text Styles //////////*/
+
+#logo {
+  color: #98ADA6;
+  font-size: 5em;
+  font-weight: 700;
+  font-family: baskerville, times, "times new roman", serif;
+  margin: 0 0 10px;
+  transition: all 0.2s ease
+}
+
+#logo:hover {
+  color: #6F7F7A;
+}
+
+h2 {
+  color: #6F7F7A;
+  font-size: 2em
+}
+
+p {
+  color: #555;
+  margin-top: 20px
+}
+
+a {
+  color: #1783BB;
+  text-decoration: none
+}
+
+hr {
+  height: 1px;
+  background-color: #CCC;
+  margin: 5px 0;
+  border: 0
+}
+
+/*////////// Image Styles //////////*/
+
+#top-image {
+  border: 5px solid #98ADA6;
+  margin: 0
+}
+
+.press-logo {
+  border: 5px solid #CCC;
+  padding: 1px;
+  transition: all 0.5s ease
+}
+
+.press-logo:hover {
+  border: 5px solid #6F7F7A;
+}
+
+/*////////// Footer Styles //////////*/
+
+footer {
+  margin: 20px 0;
+  font-size: .8em;
+  color: #555;
+  text-align: right
+}
