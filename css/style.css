@@ -17,4 +17,34 @@ body {
 	padding: 0 45px 20px;
 }
 
+h1 {
+	margin: .2em 0;
+	font-size: 4.5em;
+	font-weight: 500;
+	color: #A19F9F;	
+}
+
+h2 {
+	font-weight: 900;
+    color: #A19F9F;	
+}
+
+img#big {
+	border: 5px solid #A19F9F;
+}
+
+img.logo {
+	border: 4px solid #BDBDBC;
+	margin-left: 0.6%;
+}
+
+.logo.first {
+	margin: 0;
+}
+
+footer {
+	font-size: 0.8em;
+	color: #A19F9F;	
+	text-align: right;
+}
 /* Write all remaining styles here */
