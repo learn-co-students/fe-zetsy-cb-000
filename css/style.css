@@ -1,20 +1,139 @@
+
+
+
+
+
+/* Zetsy WORKING CSS */
+
+
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@font-face {
+	font-family: 'Baskerville';
+	src="fonts/Baskerville.ttc";
+}
 
 /*////////// Global Styles //////////*/
 
 body {
-	background: #F3EBE9;
-	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	background-color: rgb(243, 235, 233);
+	height: 50%;
+	min-height: 50%;
 }
 
-.wrapper {
+.wrapper { /* the white background */
+	position: relative;
 	width: 960px;
-	margin: 0 auto;
-	background: #fff;
-	padding: 0 45px 20px;
+	height: 159vh; /* controls the height of the white background */
+	margin:  0 auto; /* centers the white div */
+	background: #fff; /* color: white */
+	padding: 1px 45px 0 45px;	/* width on right & left */
 }
 
-/* Write all remaining styles here */
+.header {
+	position: relative;
+	bottom: 100px;
+	right: 10px;
+	padding-top: 10px; /* moves "Zetsy" up/down */
+	padding-right: 10px;
+	padding-bottom: 0;
+	padding-left: 10px;
+	border-color: rgb(204, 204, 204);
+}
+
+h1 {
+	font-family: "Baskerville", serif;
+	font-size: 80px;
+	color: rgb(152, 173, 166);
+	position: relative;
+	top: 35px;
+}
+
+.container {
+	position: relative;
+	bottom: 108px;
+	/*left: 0;*/
+	padding-top: 10px; /* moves pic up */
+	padding-right: 0;
+	padding-bottom: 1px;
+	padding-left: 0;
+	border-style: solid;
+	border-color: rgb(204, 204, 204);
+	border-top-width: 1px;  /* line under Zetsy */
+	border-right-width: 0;
+	border-bottom-width: 0;
+	border-left-width: 0;
+	height: 82vh;
+}
+
+.necklace {
+	border: 5px solid rgb(152, 173, 166);
+	margin-bottom: 10px; /* space between bottom border and ABOUT */
+	position: relative;
+	bottom: 5px; /* space between line and top border of pic */
+	height: 63vh;
+	padding-bottom: 12px;
+}
+
+.about {
+	position: relative;
+	bottom: 227px;
+	font-family: 'Times New Roman', serif;
+	font-size: 16px;
+	font-color: rgb(85, 85 85);
+}
+
+h2 {
+	font-family: 'Times New Roman', serif;
+	font-size: 32px;
+	color: rgb(111, 127, 122);
+}
+
+.para-1 {
+	position: relative;
+	bottom: 1px;
+}
+
+.para-2 {
+	position: relative;
+	top: 3px;
+}
+
+.para-3 {
+	position: relative;
+	top: 8px;
+}
+
+.press {
+	position: relative;
+	bottom: 235px;
+	right: 1px;
+	padding: 1px;
+	/*margin: 1px;*/
+}
+
+.logos {
+	border: 5px solid rgb(204, 204, 204);
+}
+
+a:visited {
+	color: blue;
+}
+
+.logos {
+  transition: border-color 0.1s ease-out;
+}
+
+.logos:hover {
+  border-color: rgb(111, 127, 122);
+  cursor: pointer;
+}
+
+.footer {
+	font-family: 'Times New Roman', serif;
+	font-size: 13px;
+	text-align: right;
+	position: relative;
+	bottom: 245px;
+}
