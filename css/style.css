@@ -34,6 +34,7 @@ header h1 {
 	font-weight: normal;
 	font-family: 'Baskerville', serif;
 	border-bottom: 1px solid rgb(204, 204, 204);
+	transition: border 0.5s ease;
 }
 
 header a {
@@ -90,6 +91,14 @@ footer {
 }
 
 /* Hover styles */
+
+#press-section img:hover {
+	border: 6px solid rgb(88,128,117);
+}
+
+header a:hover {
+	color: rgb(88,128,117);
+}
 
 
 
