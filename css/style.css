@@ -1,6 +1,6 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+
 
 /*////////// Global Styles //////////*/
 
@@ -8,13 +8,63 @@ body {
 	background: #F3EBE9;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
+	display: block;
 }
 
 .wrapper {
-	width: 960px;
+	width: 66.66666%;
+	min-width: 960px;
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
 }
 
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
 /* Write all remaining styles here */
+
+header {
+	/* something in here made the background color disapper... Will have to try those properties one at a time to see which one isn't playing nicely. */
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	color: #fff;
+}
+
+#featured {
+	border-top: 1px solid rgb(204, 204, 204);
+}
+
+#featured-image {
+	position: relative;
+	top: 10px;
+	background: rgba(151, 172, 165 1);
+}
+
+#featured-image img {
+	border: 6px solid rgba(151, 172, 165, 1);
+}
+
+#press-section {
+	display: block;
+}
+
+#press-section img {
+	display: inline-block;
+	width: 24%;
+	border: 6px solid #ccc;
+	padding: 1px;
+}
+
+
+
+
+
