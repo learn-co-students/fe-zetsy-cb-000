@@ -49,6 +49,12 @@ a {
 	color: #fff;
 }
 
+p {
+	color: #555;
+    font-size: 1em;
+    margin: 0 0 20px 0;
+}
+
 #featured {
 
 }
@@ -77,6 +83,10 @@ a {
 footer {
 	text-align: right;
 	background: #fff;
+}
+
+.footer-text {
+	font-size: 0.8em;
 }
 
 /* Hover styles */
