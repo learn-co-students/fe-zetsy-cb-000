@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,35 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1{
+
+	color:grey;
+}
+img{
+
+	border: 3px;
+}
+.featured{
+
+		border:	5px grey solid;
+}
+.logo{
+
+	font-family: 'Baskerville', serif;
+	font-weight: normal;
+}
+footer {
+
+	text-align: right;
+	background: #fff;
+}
+h2 {
+
+	color: #6b7e72;
+}
+#press img {
+
+	border: 5px #ccc solid;
+	padding:	1px;
+}
