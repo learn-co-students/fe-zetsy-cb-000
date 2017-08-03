@@ -10,6 +10,7 @@ body {
 	font-family: 'Times New Roman', serif; 
 }
 
+
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
@@ -18,3 +19,20 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1, h2 {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	color: rgb(152,173,166);
+}
+
+img {
+	border-style: solid;
+	border-color: rgb(152,173,166);
+	border-width: 3px;
+}
+
+.press {
+	border-style: solid;
+	border-color: grey;
+	border-width: 3px;
+}
