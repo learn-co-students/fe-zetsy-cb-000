@@ -1,13 +1,16 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
-
+@font-face {
+    font-family: 'Baskerville';
+    src: url(fonts/Baskerville.ttc);
+}
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -17,4 +20,70 @@ body {
 	padding: 0 45px 20px;
 }
 
+#necklace {
+  border: 5px rgb(152,173,166) solid;
+}
+
+[class*="presspic"] {
+	border: 5px rgb(152,173,166) solid;
+}
+
+h1 {
+		color: rgb(152,173,166);
+    padding-bottom: 10px;
+    margin: 0 0 5px;
+    font-size: 5em;
+    font-weight: bolder;;
+    font-family: 'Baskerville', serif;
+    border-bottom: 1px solid #ccc;
+}
+
+h2 {
+	color: rgb(111,127,122);
+	font-size: 2em;
+	font-weight: bold;
+}
+
+#footer {
+	 float: right;
+	 font-weight: light;
+	 font-size: small;
+	 margin: 0px 0px 20px 0px;
+}
 /* Write all remaining styles here */
+
+.presspic1:hover {
+  border-color: rgb(111,127,255);
+  cursor: pointer;
+  -webkit-transition: border-color .5s ease-out;
+  -moz-transition: border-color .5s ease-out;
+  -o-transition: border-color .5s ease-out;
+  transition: border-color .5s ease-out;
+}
+
+.presspic2:hover {
+  border-color: rgb(111,127,255);
+  cursor: pointer;
+  -webkit-transition: border-color .5s ease-out;
+  -moz-transition: border-color .5s ease-out;
+  -o-transition: border-color .5s ease-out;
+  transition: border-color .5s ease-out;
+}
+
+.presspic3:hover {
+  border-color: rgb(111,127,255);
+  cursor: pointer;
+  -webkit-transition: border-color .5s ease-out;
+  -moz-transition: border-color .5s ease-out;
+  -o-transition: border-color .5s ease-out;
+  transition: border-color .5s ease-out;
+}
+
+.presspic4:hover {
+  border-color: rgb(111,127,255);
+  cursor: pointer;
+  -webkit-transition: border-color .5s ease-out;
+  -moz-transition: border-color .5s ease-out;
+  -o-transition: border-color .5s ease-out;
+  transition: border-color .5s ease-out;
+}
