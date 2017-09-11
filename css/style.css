@@ -1,13 +1,17 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@font-face {
+	font-family: Baskerville;
+	src: url(../fonts/Baskerville.ttc);
+}
 
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +22,72 @@ body {
 }
 
 /* Write all remaining styles here */
+
+/* ///// STYLING ///// */
+
+#logo {
+	font-family: Baskerville, serif;
+	font-size: 2.5em;
+	padding-bottom: 10px;
+	font-weight: normal;
+	border-bottom: 1px solid #ccc;
+	margin: 0 0 5px;
+}
+
+#logo a:link, #logo a:visited {
+	color: #808080;
+	text-decoration: none;
+}
+
+#logo a:hover {
+	color: #696969;
+	text-decoration: none;
+}
+
+#featured-section img {
+	border: 5px solid #808080;
+	width: 100%;
+}
+
+h2 {
+	color: #808080;
+	font-size: 2em;
+}
+
+p {
+	margin: 0 0 20px 0;
+	font-size: 1em;
+	color: #555;
+}
+
+#learn-link:link, #learn-link:visited {
+	color: #39f;
+	text-decoration: none;
+}
+
+#learn-link:hover {
+	text-decoration: underline;
+}
+
+#press-section {
+	margin-bottom: 20px;
+}
+
+#press-section img {
+	border:	5px solid #a9a9a9;
+	padding: 1px;
+}
+
+#press-section img:hover {
+	border: 5px solid #808080;
+}
+
+/* ///// LAYOUT ///// */
+
+footer {
+	float: right;
+}
+
+.small {
+	font-size: 0.8em
+}
