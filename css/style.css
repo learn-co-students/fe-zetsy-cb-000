@@ -2,12 +2,17 @@
 
 /* link the web font used for the level 1 heading here */
 
+@font-face {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc);
+}
+
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +23,86 @@ body {
 }
 
 /* Write all remaining styles here */
+h1 {
+	padding-bottom: 10px;
+	margin:0 0 5px;
+	color: rgba(152, 173, 166, 1);
+	font-size: 5em;
+	font-weight: normal;
+	font-family: 'Baskerville', serif;
+	border-bottom: 1px solid #ccc;
+}
+
+h2 {
+	color: rgba(152, 173, 166, 1);
+	font-size: 2em;
+}
+
+p {
+	color: #555;
+	font-size: 1em;
+	margin: 0 0 10px 0;
+}
+
+/*////////// Section Styles //////////*/
+
+#featured a:link {
+	text-decoration: none;
+}
+
+#featured a:hover {
+	text-decoration-line: underline;
+}
+
+#featured a:visited {
+	color: rgba(35, 137, 190, 1)
+}
+
+.featured-image {
+	width: 100%;
+	border: 5px solid rgba(152, 173, 166, 1);
+	margin-bottom: 10px;
+}
+
+section {
+	padding: 0;
+	margin: 0.1%;
+}
+
+figure {
+	padding: 0;
+	margin: 0.1%;
+}
+
+#press {
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+#press img {
+	padding: 1px;
+	border: 5px #ccc solid;
+	float: left;
+	width: 22%;
+	margin-bottom: 10px;
+}
+
+#press img:hover {
+	border: 5px #aaa solid;
+	padding: 1px;
+}
+
+.small {
+	font-size: 0.8em;
+}
+
+footer {
+	text-align: right;
+	background: #fff;
+}
+
+* {
+	-webkit-box-sizing: boarder-box;
+	-moz-box-sizing: boarder-box;
+	box-sizing: boarder-box;
+}
