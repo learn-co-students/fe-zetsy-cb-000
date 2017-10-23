@@ -1,13 +1,30 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+@import url('https://linotype.com/43255/baskerville-family.html');
 
 /*////////// Global Styles //////////*/
+
+*:hover {
+	background-color: yellow;
+	-webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -17,4 +34,35 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+h1 {
+	font-size: 5em;
+	font-weight: bold;
+	font-family: "Baskerville", serif;
+	color: #97ABA5;
+	margin: 0 0 5px;
+}
+
+h2 {
+	font-size: 2em;
+	color: #6F7E79;
+}
+
+p {
+	font-size: 1em;
+	color: #565656;
+}
+
+img {
+	padding: 1px;
+	border: .33em solid #CBCBCB;
+}
+ [alt="necklace"] {
+	 padding: 0;
+	 border-color: #97ABA5;
+ }
+
+#footer {
+	color: #565656;
+	font-size: .8em;
+	text-align: right;
+}
