@@ -57,6 +57,7 @@ header a {
 
 header a:hover {
 	color: rgb(111, 127, 122);
+	transition: background-color 2s ease-out;
 }
 
 #featured img {
@@ -70,6 +71,7 @@ header a:hover {
 
 #featured a:hover {
 	text-decoration: underline;
+	transition: background-color 2s ease-out;
 }
 
 #websites {
@@ -83,6 +85,7 @@ header a:hover {
 
 #websites img:hover {
 	border: 5px rgb(111, 127, 122) solid;
+	transition: background-color 2s ease-out;
 }
 
 footer {
