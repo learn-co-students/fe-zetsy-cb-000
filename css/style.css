@@ -17,6 +17,7 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+	color: rgb(85, 85, 85);
 }
 
 /* Write all remaining styles here */
@@ -24,6 +25,8 @@ h2 {
 	font-size: ;
 	color: ;
 }
+
+
 /*////////// Header //////////*/
 header h1 {
 	font-family: 'Baskerville', 'Times New Roman', serif;
@@ -46,4 +49,10 @@ header h1:hover {
 /*////////// Press Section //////////*/
 #press a img {
 	border: 1px solid color;
+}
+
+/*////////// Footer //////////*/
+footer {
+	font-size: 0.8em;
+	float: right;
 }
