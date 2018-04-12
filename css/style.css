@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,43 @@ body {
 }
 
 /* Write all remaining styles here */
+
+header {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 2em;
+	color: grey;
+}
+
+.header img{
+	outline: 5px solid grey;
+}
+
+.about {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1em;
+	color: grey;
+}
+
+.press {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1em;
+	color: grey;
+}
+
+.images img {
+	outline: 4px solid rgba(201,201,201,1);
+	transition: outline 0.5s ease-out;
+	margin: 4px;
+}
+
+.images img:hover{
+	outline: 4px solid grey;
+	cursor: pointer;
+}
+
+.footer {
+	float: right;
+	font-size: 12px;
+	padding-right: 20px;
+	padding-top: 10px;
+}
