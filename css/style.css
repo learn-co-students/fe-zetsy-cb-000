@@ -1,13 +1,7 @@
-/*////////////// Fonts //////////////*/
-
-/* link the web font used for the level 1 heading here */
-
-/*////////// Global Styles //////////*/
-
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -17,4 +11,63 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+
+#site-title {
+  color: #778899;
+  font-size: 50px;
+  font-family: "Times New Roman";
+  font-weight: thin;
+
+}
+
+#heading {
+color: grey;
+}
+
+img {
+  width: 20%;
+  height: auto;
+  margin-left: 3%;
+  border: solid grey;
+}
+
+p {
+  color: grey;
+}
+
+#copyright {
+  float: right;
+  color: black;
+  font-size: 13px;
+
+}
+
+#seperator {
+  width: 100%;
+  height: 1px;
+  background-color: grey;
+  margin-bottom: 5px;
+
+}
+
+#banner-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+  border: 5px;
+  border: solid grey;
+}
+
+#press-links {
+  display: inline;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img:hover {
+  border: solid black;
+}
