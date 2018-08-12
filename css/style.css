@@ -1,20 +1,98 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+fonts/Baskerville.ttc;
 
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
-	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-size: 40px;
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
-	width: 960px;
+	width: 950px;
 	margin: 0 auto;
 	background: #fff;
-	padding: 0 45px 20px;
+	padding: 0px;
 }
 
 /* Write all remaining styles here */
+
+#logo {
+	font-size: 50px;
+	font-family: Baskerville;
+}
+
+a:link {
+    text-decoration: none;
+    color: rgba(141, 163, 156, 1);
+}
+
+a:visited {
+  color: rgba(141, 163, 156, 1);
+}
+a:hover {
+  color: rgba(100, 116, 111, 1)
+}
+h2 {
+	font-family: Baskerville;
+	color: rgba(141, 163, 156, 1);
+	font-size: 35px;
+}
+
+#beads {
+	border: #8DA39C 7px solid;
+}
+
+p {
+	font-family: Times New Roman;
+	font-size: 15px;
+}
+
+/*JUST PRESS THINGS*/
+.col-1 {
+	float: left;
+  width: 23.5%;
+	border: #eee 5px solid;
+  padding: 0 auto;
+  display: inline;
+  height: 143.2px;
+
+}
+
+[class*="col-"] {
+  margin-left: .4%;
+}
+
+.first {
+	margin-left: 0%;
+}
+
+/* BACKGROUNDS*/
+div.fixed-size {
+  background-color: white;
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+ body {
+   background-color: #F1E8E6;
+ }
+
+/*copyright*/
+#copyright footer {
+ 	position: relative;
+ 	bottom: auto;
+ 	left: 820px;
+ 	font-size: 10px;
+  clear: both;
+ }
+
+ .clearfix:after {
+   content:"the internet is here";
+   display:block;
+   clear: both;
+   visibility: hidden;
+ }
