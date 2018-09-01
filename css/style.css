@@ -1,70 +1,73 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
-
+@font-face {
+  font-family: Baskerville;
+  src: url('fonts/Baserville.tcc');  
+}
 /*////////// Global Styles //////////*/
 
 body {
-	background: #F3EBE9;
-	font-size: 100%;
-	font-family: 'Times New Roman', serif;
-	color:  #6F7F7A
+  background: #F3EBE9;
+  font-size: 100%;
+  font-family: 'Times New Roman', serif; 
 }
 
 .wrapper {
-	width: 960px;
-	margin: -20px auto;
-	background: #fff;
-	padding: 0 45px 20px;
+  width: 960px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 0 45px 20px;
 }
-*	{
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
+
 /* Write all remaining styles here */
-#title a{
-	font-size: 2.5em;
-	letter-spacing: 0.05em;
-	font-weight: 900
-}
 
-#title a:link {
-  color: #98ADA6;
+h1 {
+  font-family: Baskerville;
+  font-size: 5em;
+  margin: 4px 0;
+  border-bottom: 1px solid rgb(204, 204, 204);
+  padding-bottom: 13px
+
+}
+header a {
+  color: rgb(152,173,166);
   text-decoration: none;
 }
-
-#title a:hover {
-  color: #6F7F7A;
-  text-decoration: none;
+header a:hover {
+  color: rgb(132,149,144);
 }
-hr {
-	color: pink;
-	margin-bottom: 3px;
-}
-#about img {
-	border: #98ADA6 solid 4px;
-	width:100%
+h2 {
+  font-family: "Times New Roman", serif;
+  font-size: 2em;
+  color: rgb(111,127,122);
 }
 
-#press div {
-	width: 24.85%;
-	height: 150px;
-	float: left;
-	border: #98ADA6 solid 4px;
-	margin-left: 0.2%;
-	background-color: #F7F0EE
+img {
+  border: 5px solid rgb(150, 173, 166 ) ;
 }
-footer {
-	float: right;
-	font-size: 0.8em;
-	margin-top:1.5em
+p a {
+  color: rgb(107, 131, 184) ;
+  text-decoration: none
 }
-.clearfix:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  height: 0;
-  line-height: 0;
+p a:hover {
+  text-decoration: underline;
 }
+div.imageWrapper img {
+  width: 23.5%;
+}
+a img{
+    transition: border-color 0.5s ease;
+  border-color:rgb(204,  204, 204 );
+}
+a img:hover {
+  border-color: rgb(150, 173, 166 )
+}
+
+footer p {
+  
+  text-align: right;
+  font-size: .9em;
+  
+}
+
+
