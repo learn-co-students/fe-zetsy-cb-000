@@ -7,7 +7,11 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+}
+
+footer p {
+	text-align: right;
 }
 
 .wrapper {
@@ -18,3 +22,50 @@ body {
 }
 
 /* Write all remaining styles here */
+
+section {
+	display: block;
+}
+
+/* SECTIONS */
+#featured a {
+	color: #1783bb;
+	text-decoration: none;
+}
+
+#featured a:hover {
+	text-decoration: underline;
+}
+
+
+#press {
+    margin-bottom: 20px;
+}
+
+#press img {
+	border: 5px #ccc solid;
+	padding: 1px;
+
+}
+
+#press img:hover {
+	border: 5px rgb(111,127,122) solid;
+}
+
+h1 {
+	color: rgb(111,127,122);
+	font-size: 5em;
+	font-weight: normal;
+	font-family: 'Baskerville', serif;
+}
+
+h2 {
+	color: rgb(111,127,122);
+	font-size: 2em;
+}
+
+
+/*  */
+#featured img {
+	border: 5px rgb(152,173,166) solid;
+}
