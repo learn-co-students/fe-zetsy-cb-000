@@ -1,8 +1,35 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+@font-face {
+  font-family: 'Baskerville';
+  src: url('/fonts/Baskerville.ttc');
+}
 
 /*////////// Global Styles //////////*/
+
+h1 {
+	font: 4em "Baskerville";
+}
+
+h2, h3, h4, h5, h6 {
+  font: "Baskerville";
+}
+
+h1 {
+  color: gray;
+}
+
+h2 {
+	color: gray;
+}
+
+h5 {
+  color: rgba(70, 70, 70, 1.0);
+}
+
+h6 {
+  color: rgba(70, 70, 70, 1.0);
+}
 
 body {
 	background: #F3EBE9;
@@ -20,9 +47,14 @@ body {
 /* Write all remaining styles here */
 
 .gray-bordered {
+  transition: border-color 0s ease;
   border-style: solid;
   border-width: 4px;
-  border-color: gray;
+  border-color: lightgray;
+}
+
+.gray-bordered:hover {
+  border-color: rgba(70, 70, 70, 1.0);
 }
 
 #copyright-text {
@@ -43,4 +75,8 @@ body {
 
 #box-4 {
   margin: 2px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 959b79459f269e6ee29d5ee8e993c12fe68a0a21
