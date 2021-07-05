@@ -3,11 +3,10 @@
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
-
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +17,47 @@ body {
 }
 
 /* Write all remaining styles here */
+h1, h2, h3, h4, h5, h6 {
+	color: #9DAAA5;
+}
+
+a {
+	color: #438ABB;
+	text-decoration: none;
+}
+
+
+h1 {
+	border-bottom: 1px solid #9DAAA5;
+	padding-bottom: 10px;
+	font-size: 4em;
+	margin-bottom: 5px;
+}
+
+
+h2 {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+img {
+	border: 3px solid #9DAAA5;
+}
+
+#cta img {
+	border: 3px solid #CBCBCB;
+}
+
+#cta img:hover {
+	border: 3px solid #727F7A;
+}
+
+
+.banner {
+	width: 100%;
+	margin-top: 0;
+}
+
+footer {
+	float: right;
+}
