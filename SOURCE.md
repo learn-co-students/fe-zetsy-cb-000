@@ -1,8 +1,8 @@
 <!-- Level 1 header -->
-Zetsy
+Zetsy - done
 
 <!-- featured image -->
-[necklace.jpg]
+[necklace.jpg] 
 
 <!-- level 2 header -->
 About
